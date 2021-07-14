@@ -1,0 +1,232 @@
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<link href="assets/playlist.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: "Raleway", sans-serif
+		}
+	</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+  	<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+      <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+          <i class="fa fa-remove"></i>
+        </a>
+        <img src="https://i.pinimg.com/originals/ae/21/98/ae219843b4fc962467b866c598252b01.jpg" style="width:45%;" class="w3-round"><br><br>
+        <h4><b>Hallo there</b></h4>
+        <p class="w3-text-grey">Parachute for sale, used once, never opened!</p>
+      </div>
+      <div class="w3-bar-block">
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-search w3-margin-right"></i>HOME</a> 
+        <a href="history.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-list fa-fw w3-margin-right"></i>PLAYLIST</a> 
+        <a href="music.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-podcast fa-fw w3-margin-right"></i>Random Radio</a>
+        <a href="form.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bookmark fa-fw w3-margin-right"></i>Registration</a>
+        <a href="experiments/experiment3.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-android fa-fw w3-margin-right"></i>experiment 3</a>
+        <a href="experiments/experiment5.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-android fa-fw w3-margin-right"></i>experiment 5</a>
+
+      </div>
+      <div class="w3-panel w3-large">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+    </nav>
+
+
+      <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+      <div class="w3-main" style="margin-left:300px">
+        <header id="portfolio">
+          <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+          <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+          <div class="w3-container">
+          <h1><b>Finding Life</b></h1>
+  <div class="container">
+
+  <audio id="audio" preload="none" tabindex="0">
+    			<source src="https://archive.org/download/calexico2006-12-02..flac16/calexico2006-12-02d1t02.mp3" data-track-number="1" />
+    			<source src="https://archive.org/download/ra2007-07-21/ra2007-07-21d1t05_64kb.mp3" data-track-number="2" />
+    			<source src="https://archive.org/download/slac2002-02-15/slac2002-02-15d1t07_64kb.mp3" data-track-number="3" />
+    			<source src="https://archive.org/download/blitzentrapper2009-02-24.flac16/blitzentrapper2009-02-24t02_64kb.mp3" data-track-number="4" />
+    			<source src="https://archive.org/download/samples2003-11-21.flac16/samples2003-11-21d2t04.mp3" data-track-number="5" />    
+    			<source src="https://archive.org/download/mikedoughty2004-06-16.flac16/d1t13.mp3" data-track-number="6" />
+    			<source src="https://archive.org/download/glove2004-03-18.shnf/glove2004-03-18d1t05.mp3" data-track-number="7" />
+    			<source src="https://archive.org/download/guster2005-11-12.flac16/guster2005-11-12d2t04.mp3" data-track-number="8" />
+          <source src="https://archive.org/download/oar2004-11-12.flac/oar2004-11-12d1t01.mp3" data-track-number="9" />
+          <source src="https://archive.org/download/mmj2003-09-26.shnf/mmj2003-09-26d2t08.mp3" data-track-number="10" />
+          
+    			Your browser does not support HTML5 audio.
+    		</audio>
+
+  <div class="player">
+
+    <div class="large-toggle-btn">
+      <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+    </div>
+    <!-- /.play-box -->
+
+    <div class="info-box">
+      <div class="track-info-box">
+        <div class="track-title-text"></div>
+        <div class="audio-time">
+          <span class="current-time">00:00</span> /
+          <span class="duration">00:00</span>
+        </div>
+      </div>
+      <!-- /.info-box -->
+
+      <div class="progress-box">
+        <div class="progress-cell">
+          <div class="progress">
+            <div class="progress-buffer"></div>
+            <div class="progress-indicator"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.progress-box -->
+
+    <div class="controls-box">
+      <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+      <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+    </div>
+    <!-- /.controls-box -->
+
+  </div>
+  <!-- /.player -->
+
+  <div class="play-list">
+
+    <div class="play-list-row" data-track-row="1">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        1.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="1">Calexico - Across The Wire</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="2">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        2.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="2">Ryan Adams &amp; The Cardinals - Cold Roses</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="3">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        3.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="3">The Slackers - Married Girl</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="4">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        4.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="4">Blitzen Trapper - Saturday Night</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="5">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        5.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="5">The Samples - Feel Us Shaking</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="6">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        6.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="6">Mike Doughty - American Car</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="7">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        7.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="7">G. Love &amp; Special Sauce - Dreamin'</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="8">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        8.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="8">Guster - Amsterdam</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="9">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        9.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="9">O.A.R. - About Mr. Brown</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="10">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        10.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="10">My Morning Jacket - Phone Went West</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div>Music from the <a href="https://archive.org/details/etree" target="_blank">Live Music Archive</a></div>
+</div>
+<script src="scripts/playlist.js"></script>
+</body>
+</html>
